@@ -1,1 +1,4 @@
 .idea
+.htaccess
+wp-config.php
+wp-content/languages
