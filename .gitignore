@@ -2,3 +2,4 @@
 .htaccess
 wp-config.php
 wp-content/languages
+vendor
