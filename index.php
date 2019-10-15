@@ -6,6 +6,8 @@
  * @package WordPress
  */
 
+require_once "vendor/autoload.php";
+
 /**
  * Tells WordPress to load the WordPress theme and output it.
  *
