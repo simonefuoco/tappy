@@ -2,6 +2,7 @@
     "name": "simonefuoco/tappy",
     "description": "WordPress with new functionalities and a better architecture. Fork starting from 5.2.3 release.",
     "type": "project",
+    "license": "GPL-3.0-or-later",
     "autoload": {
         "psr-4": {
             "Tappy\\": "src/"
@@ -15,6 +16,5 @@
     },
     "require": {
         "php": ">7.0"
-    },
-    "license": "GPL-3.0-or-later"
+    }
 }
