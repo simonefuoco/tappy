@@ -15,9 +15,17 @@
         }
     },
     "require": {
-        "php": ">7.0"
+        "php": ">=7.2"
     },
     "require-dev": {
+        "ext-dom": "*",
+        "ext-json": "*",
+        "ext-libxml": "*",
+        "ext-mbstring": "*",
+        "ext-pdo": "*",
+        "ext-xdebug": "*",
+        "ext-xml": "*",
+        "ext-xmlwriter": "*",
         "phpunit/phpunit": "^8.4"
     }
 }
