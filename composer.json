@@ -1,6 +1,6 @@
 {
     "name": "simonefuoco/tappy",
-    "description": "WordPress fork starting from 5.2.3 release.",
+    "description": "WordPress with new functionalities and a better architecture. Fork starting from 5.2.3 release.",
     "type": "project",
     "autoload": {
         "psr-4": {
