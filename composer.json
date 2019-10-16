@@ -16,5 +16,5 @@
     "require": {
         "php": ">7.0"
     },
-    "licence": "GPL-3.0-or-later"
+    "license": "GPL-3.0-or-later"
 }
