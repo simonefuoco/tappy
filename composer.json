@@ -13,7 +13,8 @@
             "src/Functions/default-constants.php",
             "src/Functions/plugin.php",
             "src/Functions/compat.php",
-            "src/Functions/formatting.php"
+            "src/Functions/formatting.php",
+            "src/Functions/meta.php"
         ],
         "classmap": [
             "src/Classes/"
