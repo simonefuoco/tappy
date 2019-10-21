@@ -96,7 +96,6 @@ if ( WP_CACHE && apply_filters( 'enable_loading_advanced_cache_dropin', true ) )
 wp_set_lang_dir();
 
 // Load early WordPress files.
-require( ABSPATH . WPINC . '/class-wp-matchesmapregex.php' );
 require( ABSPATH . WPINC . '/class-wp.php' );
 require( ABSPATH . WPINC . '/class-wp-error.php' );
 require( ABSPATH . WPINC . '/pomo/mo.php' );
