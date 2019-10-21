@@ -10,7 +10,8 @@
         "files": [
             "src/Functions/load.php",
             "src/Functions/error-protection.php",
-            "src/Functions/default-constants.php"
+            "src/Functions/default-constants.php",
+            "src/Functions/plugin.php"
         ],
         "classmap": [
             "src/Classes/"
