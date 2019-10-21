@@ -1,5 +1,13 @@
 # Tappy CMS
 
+## Getting Started
+
+```
+> git clone https://github.com/simonefuoco/tappy.git
+
+> composer dumpautoload
+```
+
 ## Goal
 
 The goal of this project is to modify the Wordpress software to add
