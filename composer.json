@@ -15,7 +15,8 @@
             "src/Functions/compat.php",
             "src/Functions/formatting.php",
             "src/Functions/meta.php",
-            "src/Functions/option.php"
+            "src/Functions/option.php",
+            "src/Functions/functions.php"
         ],
         "classmap": [
             "src/Classes/"
