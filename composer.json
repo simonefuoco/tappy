@@ -12,7 +12,8 @@
             "src/Functions/error-protection.php",
             "src/Functions/default-constants.php",
             "src/Functions/plugin.php",
-            "src/Functions/compat.php"
+            "src/Functions/compat.php",
+            "src/Functions/formatting.php"
         ],
         "classmap": [
             "src/Classes/"
