@@ -2,7 +2,6 @@
     "name": "simonefuoco/tappy",
     "description": "WordPress with new functionalities and a better architecture. Fork starting from 5.2.3 release.",
     "type": "project",
-    "license": "GPL-3.0-or-later",
     "autoload": {
         "psr-4": {
             "Tappy\\": "src/"
@@ -31,6 +30,6 @@
         "ext-xdebug": "*",
         "ext-xml": "*",
         "ext-xmlwriter": "*",
-        "phpunit/phpunit": "^8.4"
+        "phpunit/phpunit": "8.4.1"
     }
 }
