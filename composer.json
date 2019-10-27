@@ -5,7 +5,22 @@
     "autoload": {
         "psr-4": {
             "Tappy\\": "src/"
-        }
+        },
+        "files": [
+            "src/Functions/load.php",
+            "src/Functions/error-protection.php",
+            "src/Functions/default-constants.php",
+            "src/Functions/plugin.php",
+            "src/Functions/compat.php",
+            "src/Functions/formatting.php",
+            "src/Functions/meta.php",
+            "src/Functions/option.php",
+            "src/Functions/functions.php",
+            "src/Functions/wp-login.php"
+        ],
+        "classmap": [
+            "src/Classes/"
+        ]
     },
     "autoload-dev": {
         "psr-4": {

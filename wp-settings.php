@@ -8,6 +8,8 @@
  * @package WordPress
  */
 
+require_once "vendor/autoload.php";
+
 /**
  * Stores the location of the WordPress directory of functions, classes, and core content.
  *
@@ -16,16 +18,6 @@
 define( 'WPINC', 'wp-includes' );
 
 // Include files required for initialization.
-require( ABSPATH . WPINC . '/load.php' );
-require( ABSPATH . WPINC . '/class-wp-paused-extensions-storage.php' );
-require( ABSPATH . WPINC . '/class-wp-fatal-error-handler.php' );
-require( ABSPATH . WPINC . '/class-wp-recovery-mode-cookie-service.php' );
-require( ABSPATH . WPINC . '/class-wp-recovery-mode-key-service.php' );
-require( ABSPATH . WPINC . '/class-wp-recovery-mode-link-service.php' );
-require( ABSPATH . WPINC . '/class-wp-recovery-mode-email-service.php' );
-require( ABSPATH . WPINC . '/class-wp-recovery-mode.php' );
-require( ABSPATH . WPINC . '/error-protection.php' );
-require( ABSPATH . WPINC . '/default-constants.php' );
 require_once( ABSPATH . WPINC . '/plugin.php' );
 
 /*
@@ -104,15 +96,6 @@ if ( WP_CACHE && apply_filters( 'enable_loading_advanced_cache_dropin', true ) )
 wp_set_lang_dir();
 
 // Load early WordPress files.
-require( ABSPATH . WPINC . '/compat.php' );
-require( ABSPATH . WPINC . '/class-wp-list-util.php' );
-require( ABSPATH . WPINC . '/formatting.php' );
-require( ABSPATH . WPINC . '/meta.php' );
-require( ABSPATH . WPINC . '/functions.php' );
-require( ABSPATH . WPINC . '/class-wp-meta-query.php' );
-require( ABSPATH . WPINC . '/class-wp-matchesmapregex.php' );
-require( ABSPATH . WPINC . '/class-wp.php' );
-require( ABSPATH . WPINC . '/class-wp-error.php' );
 require( ABSPATH . WPINC . '/pomo/mo.php' );
 
 // Include the wpdb class and, if present, a db.php database drop-in.
