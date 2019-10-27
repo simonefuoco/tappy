@@ -2,7 +2,6 @@
     "name": "simonefuoco/tappy",
     "description": "WordPress with new functionalities and a better architecture. Fork starting from 5.2.3 release.",
     "type": "project",
-    "license": "GPL-3.0-or-later",
     "autoload": {
         "psr-4": {
             "Tappy\\": "src/"
@@ -23,6 +22,11 @@
             "src/Classes/"
         ]
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
     "config": {
         "sort-packages": true,
         "platform": {
@@ -30,6 +34,17 @@
         }
     },
     "require": {
-        "php": ">7.0"
+        "php": ">=7.2"
+    },
+    "require-dev": {
+        "ext-dom": "*",
+        "ext-json": "*",
+        "ext-libxml": "*",
+        "ext-mbstring": "*",
+        "ext-pdo": "*",
+        "ext-xdebug": "*",
+        "ext-xml": "*",
+        "ext-xmlwriter": "*",
+        "phpunit/phpunit": "8.4.1"
     }
 }
