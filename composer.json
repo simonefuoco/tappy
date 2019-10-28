@@ -18,7 +18,8 @@
             "src/Functions/meta.php",
             "src/Functions/option.php",
             "src/Functions/functions.php",
-            "src/Functions/wp-login.php"
+            "src/Functions/wp-login.php",
+            "src/Functions/query.php"
         ],
         "classmap": [
             "src/Classes/"
