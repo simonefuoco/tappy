@@ -8,6 +8,7 @@
             "Tappy\\": "src/"
         },
         "files": [
+            "env-bootstrap.php",
             "src/Functions/load.php",
             "src/Functions/error-protection.php",
             "src/Functions/default-constants.php",
