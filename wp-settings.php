@@ -10,13 +10,6 @@
 
 require_once "vendor/autoload.php";
 
-/**
- * Stores the location of the WordPress directory of functions, classes, and core content.
- *
- * @since 1.0.0
- */
-define( 'WPINC', 'wp-includes' );
-
 // Include files required for initialization.
 require_once( ABSPATH . WPINC . '/plugin.php' );
 
