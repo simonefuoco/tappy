@@ -132,7 +132,7 @@ wp_not_installed();
 
 // Load most of WordPress.
 require( ABSPATH . WPINC . '/capabilities.php' );
-require( ABSPATH . WPINC . '/class-wp-roles.php' );
+
 require( ABSPATH . WPINC . '/class-wp-role.php' );
 require( ABSPATH . WPINC . '/class-wp-user.php' );
 require( ABSPATH . WPINC . '/class-wp-query.php' );
