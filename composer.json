@@ -19,7 +19,8 @@
             "src/Functions/option.php",
             "src/Functions/functions.php",
             "src/Functions/wp-login.php",
-            "src/Functions/query.php"
+            "src/Functions/query.php",
+            "src/Functions/I10n.php"
         ],
         "classmap": [
             "src/Classes/"
